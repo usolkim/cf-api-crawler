@@ -1,0 +1,18 @@
+{
+  "requests":{
+    "proxy": {
+      "http": "http://proxy:port",
+      "https": "http://proxy:port"
+    },
+    "verify": "/path/to/certfile"
+  },
+  "cf": {
+    "api_version": "2.5.0",
+    "auth": {
+      "type": "oauth2",
+      "flow": "password",
+      "tokenUrl": "https://login.cf.domain/oauth/token"
+    }
+  },
+  "output_file" : "/path/to/output/swagger.json"
+}
