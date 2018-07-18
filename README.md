@@ -1,6 +1,6 @@
 # CloudFoundry API Crawler
 
-Crawling CloudFoundry API site for swagger
+Crawling CloudFoundry API site for swagger 2.0
 
 ## Getting Started
 
